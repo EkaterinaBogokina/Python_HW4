@@ -13,7 +13,7 @@ list_n = [random.randint(0,100) for i in range (int(n))]
 set_n = set(list_n)
 list_m = [random.randint(0,100) for i in range (int(m))]
 set_m = set(list_m)
-print (set_n)
-print (set_m)
+print(set_n)
+print(set_m)
 new_set = set_n.union(set_m)
 print(sorted(new_set))
